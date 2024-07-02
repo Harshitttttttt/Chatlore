@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://chatlore-api.vercel.app",
+        target: "https://chatlore-api.onrender.com/",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\//, ""),
       },
