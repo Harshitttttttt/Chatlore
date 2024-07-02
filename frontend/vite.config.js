@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": {
-        target: "https://chatlore-api.onrender.com/",
+        target: "https://chatlore-api.onrender.com",
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\//, ""),
       },
