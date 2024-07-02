@@ -14,4 +14,12 @@
       "dest": "https://chatlore-api.onrender.com/api/$1"
     }
   ]
+  {
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://chatlore-api.onrender.com/api/$1"
+    }
+  ]
+}
 }
